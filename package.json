@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-ts-template",
+  "name": "ag-grid-vue-utils",
   "version": "1.0.0",
-  "description": "NPM TS Package Template",
+  "description": "AgGrid Vue Utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bryanwnelson757/npm-package-ts-template.git"
+    "url": "git+https://github.com/bryanwnelson757/ag-grid-vue-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/bryanwnelson757/npm-package-ts-template/issues"
+    "url": "https://github.com/bryanwnelson757/ag-grid-vue-utils/issues"
   },
-  "homepage": "https://github.com/bryanwnelson757/npm-package-ts-template#readme",
+  "homepage": "https://github.com/bryanwnelson757/ag-grid-vue-utils#readme",
   "keywords": [],
   "author": "bryanwnelson757",
   "license": "ISC",
