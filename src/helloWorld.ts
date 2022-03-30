@@ -1,5 +1,5 @@
 export class HelloWorld {
-  public sayHello(): void {
-    console.log('Hello World!');
+  public sayHello(): string {
+    return 'Hello World!';
   }
 }

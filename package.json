@@ -9,9 +9,14 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
     "format": "prettier --write src/**/*.{ts,js}",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "test": "jest --config jestconfig.json", 
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -25,11 +30,14 @@
   "author": "bryanwnelson757",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
+    "jest": "^27.5.1",
     "prettier": "^2.6.1",
+    "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
   }
 }
