@@ -1,7 +1,7 @@
 {
-  "name": "ag-grid-vue-utils",
+  "name": "ag-grid-utils",
   "version": "1.0.0",
-  "description": "AgGrid Vue Utilities",
+  "description": "AgGrid Utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bryanwnelson757/ag-grid-vue-utils.git"
+    "url": "git+https://github.com/bryanwnelson757/ag-grid-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/bryanwnelson757/ag-grid-vue-utils/issues"
+    "url": "https://github.com/bryanwnelson757/ag-grid-utils/issues"
   },
-  "homepage": "https://github.com/bryanwnelson757/ag-grid-vue-utils#readme",
+  "homepage": "https://github.com/bryanwnelson757/ag-grid-utils#readme",
   "keywords": [],
   "author": "bryanwnelson757",
   "license": "ISC",
